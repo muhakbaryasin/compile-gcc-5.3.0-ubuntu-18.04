@@ -87,3 +87,4 @@ make[4]: *** [tsan_platform_linux.lo] Error 1
  
 # Reference
 - http://juniway.blogspot.co.id/2015/06/install-gcc510-on-ubuntu-1204build-from.html
+- https://askubuntu.com/questions/26498/choose-gcc-and-g-version
