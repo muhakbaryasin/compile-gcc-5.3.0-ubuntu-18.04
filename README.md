@@ -13,19 +13,17 @@ Kubuntu 18.04 has installed gcc version 7. We can install gcc v 5 but the onlye 
 - Kubuntu 18.04
 - Installed gcc 
 	- gcc 4.8 (as default to compile gcc 5.3--)
-	- gcc 5.5
 	- gcc 6
 	- gcc 7
 - Installed g++
 	- g++ 4.8 (as default to compile gcc 5.3--)
-	- g++ 5.5
 	- g++ 6
 	- g++ 7
 
 - GlibC 2.27
 
 #Compile
-	- ./configure --disable-checking --enable-languages=c,c++,objc --disable-multilib --with-system-zlib prefix=/usr/bin/gcc-5.3
+	- ./configure --program-suffix=-5.3.0 --disable-checking --enable-languages=c,c++,objc --disable-multilib --with-system-zlib
 	- make
 
 #Obstacle 1
